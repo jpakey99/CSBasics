@@ -7,6 +7,9 @@ class Tree:
         self.right_tree : Tree = right_tree
         self.left_tree : Tree = left_tree
 
+    def add_node(self):
+        pass
+
 
 def binary_search(tree:Tree, value):
     # value should be in increasing order from left to right
